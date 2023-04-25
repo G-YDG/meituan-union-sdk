@@ -27,7 +27,7 @@ class Client extends MeituanClient
     }
 
     /**
-     * 单订单查询接口 （https://union.meituan.com/v2/apiDetail?id=25）.
+     * 自助取链接口 （https://union.meituan.com/v2/apiDetail?id=25）.
      * @param mixed $params
      */
     public function generateLink($params): array
